@@ -4,10 +4,10 @@ import java.util.regex.Pattern;
 
 public class Regex {
     public static void main(String[] args) {
-        //Cream o baza de email-uri
+
         String emailDataBase[] = {"andrei@gmail.com","moryaloy@gmail.com","nioh@mail.ru","andrian@mail.ru"};
 
-        //Cream un regex care cauta "gmail.com" in text;
+        //Check if text from emailDataBase contain "gmail.com"
         Pattern mail = Pattern.compile("gmail.com");
         for (String el : emailDataBase)
         {
@@ -16,6 +16,7 @@ public class Regex {
             {
                 System.out.println(el);
             }
+
         }
     }
 }

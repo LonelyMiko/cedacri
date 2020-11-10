@@ -24,7 +24,7 @@ public class RegexName {
 
 //        for (String name : names)
 //        {
-//            Matcher nameMatcher = nameStartWithAOrI.matcher(name);
+//            Matcher nameMatcher = nameEndWithEOrI.matcher(name);
 //            if (nameMatcher.find())
 //            {
 //                System.out.println(name);

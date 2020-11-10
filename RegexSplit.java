@@ -12,6 +12,8 @@ public class RegexSplit {
                 "volutpat ornare nulla. Phasellus vestibulum ante dolor, ac finibus ipsum tempus id. " +
                 "Vestibulum vel nunc erat.";
 
+        //splitLoremIpsum will contain every word from loremIpsum string unsing regex \s
+        // \s - A whitespace character: [ \t\n\x0B\f\r]
        String[] splitLoremIpsum = (loremIpsum.split("\\s"));
        for (String word : splitLoremIpsum)
        {
